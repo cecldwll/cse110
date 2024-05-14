@@ -1,0 +1,4 @@
+Item, Qty
+Fries, 2
+Burgers, 4
+Shakes, 3

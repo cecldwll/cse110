@@ -1,0 +1,27 @@
+# ID Badge Generator
+
+print()
+print('Please enter the following information: \n')
+
+first = input('First Name: ')
+last = input('Last Name: ')
+email = input('Email Address: ')
+phone = input('Phone Number: ')
+job = input('Job Title: ')
+id = input('ID Number: ')
+hair = input('Hair Color: ')
+eyes = input('Eye Color: ')
+month = input('Month Started: ')
+train = input('Have you completed advanced training? ')
+
+print('\nThe ID Card is: ')
+print('---------------------------------')
+print(f'{last.upper()}, {first.capitalize()}')
+print(f'{job.title()}')
+print(f'ID: {id}\n')
+print(f'{email.lower()}')
+print(f'{phone}\n')
+print(f"{'Hair: ' + hair.capitalize():<19} Eyes: {eyes.capitalize()}")
+print(f"{'Month: ' + month.capitalize():<19} Training: {train.capitalize()}")
+print('---------------------------------')
+print()
